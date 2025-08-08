@@ -1105,3 +1105,36 @@ body.freeze-scroll {
 /* Resume Tooltip Ended */
 
 
+/* Cursor Animation Started */
+body {
+    cursor: none;
+}
+
+a, button {
+    cursor: none;
+}
+
+.cursor-dot,
+.cursor-outline {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff; 
+}
+
+.cursor-outline {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #c70039;
+    transition: transform 0.2s ease-out, background-color 0.2s ease-out, width 0.2s ease-out, height 0.2s ease-out;
+}
+/* Cursor Animation Ended */
