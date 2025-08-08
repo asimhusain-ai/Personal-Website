@@ -208,4 +208,53 @@ function openPrivacyPopup() {
   function closePrivacyPopup() {
     document.getElementById("privacyPopup").style.display = "none";
   }
+
 // Privacy Popup Ended
+
+
+// Cursor Animation Started 
+const cursorDot = document.querySelector(".cursor-dot");
+const cursorOutline = document.querySelector(".cursor-outline");
+
+let mouseX = 0;
+let mouseY = 0;
+
+let outlineX = 0;
+let outlineY = 0;
+
+window.addEventListener("mousemove", (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+});
+
+const animateCursor = () => {
+    cursorDot.style.left = `${mouseX}px`;
+    cursorDot.style.top = `${mouseY}px`;
+
+    outlineX += (mouseX - outlineX) * 0.1;
+    outlineY += (mouseY - outlineY) * 0.1;
+    cursorOutline.style.left = `${outlineX}px`;
+    cursorOutline.style.top = `${outlineY}px`;
+
+    requestAnimationFrame(animateCursor);
+};
+
+animateCursor();
+
+const interactiveElements = document.querySelectorAll("a, button, .social-icons a, .btn, .portfolio-card");
+
+interactiveElements.forEach(el => {
+    el.addEventListener("mouseenter", () => {
+        cursorOutline.style.transform = "translate(-50%, -50%) scale(1.4)";
+        cursorOutline.style.backgroundColor = "rgba(0, 191, 231, 0.1)";
+        cursorOutline.style.width = "40px";
+        cursorOutline.style.height = "40px";
+    });
+    el.addEventListener("mouseleave", () => {
+        cursorOutline.style.transform = "translate(-50%, -50%) scale(1)";
+        cursorOutline.style.backgroundColor = "transparent";
+        cursorOutline.style.width = "25px";
+        cursorOutline.style.height = "25px";
+    });
+});
+// Cursor Animation Ended
