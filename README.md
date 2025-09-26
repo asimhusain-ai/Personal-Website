@@ -1,6 +1,6 @@
 **🚀 Personal Portfolio Website**
-A modern personal portfolio website built from scratch to showcase my skills, projects, and passion for creating clean, responsive, and user-friendly digital experiences.
 
+A modern personal portfolio website built from scratch to showcase my skills, projects, and passion for creating clean, responsive, and user-friendly digital experiences.
 Deployed on Azure Static Web Apps with a custom domain and automated GitHub Actions workflow.
 
 
