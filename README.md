@@ -1,14 +1,14 @@
-🚀 Personal Portfolio Website
+**🚀 Personal Portfolio Website**
 A modern personal portfolio website built from scratch to showcase my skills, projects, and passion for creating clean, responsive, and user-friendly digital experiences.
 
 Deployed on Azure Static Web Apps with a custom domain and automated GitHub Actions workflow.
 
 
-🌐 Live Website
+**🌐 Live Website**
 👉 www.asimhusain.dev
 
 
-✨ Features
+**✨ Features**
 - Modern UI – clean and intuitive design
 - Smooth Animations – engaging UX with subtle transitions
 - Blog Section – integrated popups for reading blog posts
@@ -16,13 +16,13 @@ Deployed on Azure Static Web Apps with a custom domain and automated GitHub Acti
 - Responsive – works seamlessly on desktop, tablet, and mobile
 
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 - Frontend: HTML5, CSS3, JavaScript
 - Services: EmailJS (contact form)
 - Hosting & Deployment: Azure Static Web Apps, GitHub Actions
 
 
-☁️ Hosting & Deployment Journey
+**☁️ Hosting & Deployment Journey**
 
 1️⃣ Domain Purchase
 - Registered domain asimhusain.dev via Name.com
@@ -55,5 +55,5 @@ Deployed on Azure Static Web Apps with a custom domain and automated GitHub Acti
   👉 https://www.asimhusain.dev (secure + live)
 
 
-📄 License
+**📄 License**
 This project is open source and available under the MIT License.
