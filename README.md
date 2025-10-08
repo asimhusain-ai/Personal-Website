@@ -65,7 +65,7 @@ A modern, responsive portfolio website showcasing my expertise in AI/ML engineer
 - Responsive design testing across devices
 - Performance optimization and testing
 
-### Phase 1: Development & Setup
+### Phase 2: Development & Setup
 - Created Azure Static Web App (Free Tier)
 - Configured GitHub repository connection
 - Set up automatic deployments via GitHub Actions
